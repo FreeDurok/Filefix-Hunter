@@ -32,16 +32,27 @@ The **filefix** vulnerability exploits careless user behavior by getting them to
 
 ---
 
-## ⚙ Build
+## 🔧 Setup Environment for Windows cross-compilation
 
-Requires the [Rust toolchain](https://www.rust-lang.org/tools/install):
+If building on Linux to produce a Windows binary:
 
-```sh
-cargo build --release
+```bash
+sudo apt update
+sudo apt install -y build-essential pkg-config libssl-dev rustup gcc-mingw-w64
+
+rustup default stable
+rustup target add x86_64-pc-windows-gnu
+source $HOME/.cargo/env
+
+## 🛠️ Build
+
+Clone the repository and build the Windows binary:
+
+```bash
+git clone https://github.com/USERNAME/filefix-hunter.git
+cd filefix-hunter
+cargo build --release --target x86_64-pc-windows-gnu
 ```
-
-Binary at `target/release/filefix-hunter.exe`.
-
 ---
 
 ## 🚀 Usage
@@ -62,18 +73,17 @@ Examples:
 filefix-hunter -f json -o report.json
 filefix-hunter --format=csv --output=report.csv
 ```
-
 ---
+
 
 ## 📝 Output
 
-Terminal example:
+### Example Output
 
-```
-HKEY_USERS\S-1-5-21-... = user
-  [url1] rundll32.exe test.dll -> SUSPICIOUS
-  [url2] Desktop               -> SAFE
-```
+<p align="center">
+    <img src=".img/filefix-hunter-usage.png" alt="Filefix Hunter Usage Example" width="500"/>
+</p>
+
 
 JSON/CSV includes:
 

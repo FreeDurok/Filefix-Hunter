@@ -81,7 +81,7 @@ filefix-hunter --format=csv --output=report.csv
 
 ### Example Output
 
-<p align="center">
+<p align="left">
     <img src=".img/filefix-hunter-usage.png" alt="Filefix Hunter Usage Example" width="500"/>
 </p>
 

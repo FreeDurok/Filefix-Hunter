@@ -50,7 +50,7 @@ source $HOME/.cargo/env
 Clone the repository and build the Windows binary:
 
 ```bash
-git clone https://github.com/USERNAME/filefix-hunter.git
+git clone https://github.com/FreeDurok/Filefix-Hunter.git
 cd filefix-hunter
 cargo build --release --target x86_64-pc-windows-gnu
 ```

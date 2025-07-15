@@ -4,7 +4,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <p align="center">
-  <img src=".img/Ransom Radar.png" alt="Ransom Radar Logo" width="300"/>
+  <img src=".img/filefix-hunter_logo.png" alt="Ransom Radar Logo" width="300"/>
 </p>
 
 

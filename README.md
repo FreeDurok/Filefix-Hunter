@@ -43,6 +43,7 @@ sudo apt install -y build-essential pkg-config libssl-dev rustup gcc-mingw-w64
 rustup default stable
 rustup target add x86_64-pc-windows-gnu
 source $HOME/.cargo/env
+```
 
 ## 🛠️ Build
 

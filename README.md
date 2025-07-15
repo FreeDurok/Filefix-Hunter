@@ -1,4 +1,4 @@
-# filefix-hunter
+# Filefix Hunter
 
 ![Rust](https://img.shields.io/badge/Rust-Programming%20Language-informational?style=flat&logo=rust)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)

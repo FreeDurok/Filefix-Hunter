@@ -7,7 +7,7 @@
   <img src=".img/filefix-hunter-logo.png" alt="FileFix Hunter Logo" width="300"/>
 </p>
 
-**filefix-hunter** is a forensic tool written in Rust for incident response. It enumerates TypedPaths entries in Windows registry to detect possible LOLBIN or filefix.exe exploitation traces.
+**Filefix-Hunter** is a forensic tool written in Rust for incident response. It enumerates TypedPaths entries in Windows registry to detect possible LOLBIN or FileFix exploitation traces.
 
 <p align="center">
     <a href="https://ko-fi.com/durok" target="_blank">

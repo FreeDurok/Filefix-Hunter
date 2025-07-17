@@ -4,7 +4,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <p align="center">
-  <img src=".img/filefix-hunter_logo.png" alt="Ransom Radar Logo" width="300"/>
+  <img src=".img/filefix-hunter-logo.png" alt="FileFix Hunter Logo" width="300"/>
 </p>
 
 **filefix-hunter** is a forensic tool written in Rust for incident response. It enumerates TypedPaths entries in Windows registry to detect possible LOLBIN or filefix.exe exploitation traces.

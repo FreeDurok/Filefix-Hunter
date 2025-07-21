@@ -28,7 +28,7 @@
 
 ## ⚠️ filefix Vulnerability
 
-The **filefix** vulnerability exploits careless user behavior by getting them to paste malicious commands into Explorer’s address bar, leading to code execution with LOLBINs. More info [here](https://mrd0x.com/filefix-clickfix-alternative/).
+The **filefix** attack exploits careless user behavior by getting them to paste malicious commands into Explorer’s address bar, leading to code execution with LOLBINs. More info [here](https://mrd0x.com/filefix-clickfix-alternative/).
 
 ---
 

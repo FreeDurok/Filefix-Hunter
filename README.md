@@ -2,6 +2,7 @@
 
 ![Rust](https://img.shields.io/badge/Rust-Programming%20Language-informational?style=flat&logo=rust)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![Build](https://github.com/FreeDurok/Filefix-Hunter/actions/workflows/build.yml/badge.svg)](https://github.com/FreeDurok/Filefix-Hunter/actions/workflows/build.yml)
 
 <p align="center">
   <img src=".img/filefix-hunter-logo.png" alt="FileFix Hunter Logo" width="300"/>

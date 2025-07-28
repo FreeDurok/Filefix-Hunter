@@ -111,7 +111,7 @@ fn export_findings(findings: &[Finding], mode: &str, path: &str) {
         "json" => {
             let data = serde_json::to_string_pretty(findings).unwrap();
             file.write_all(data.as_bytes()).unwrap();
-            println!("\n ✔   Exported to JSON at {}", path);
+            println!("\n ✔   Exported to JSON at {}\n".white().bold(), path);
         }
         "csv" => {
             let mut wtr = csv::Writer::from_writer(file);
@@ -119,9 +119,9 @@ fn export_findings(findings: &[Finding], mode: &str, path: &str) {
                 wtr.serialize(f).unwrap();
             }
             wtr.flush().unwrap();
-            println!("\n ✔   Exported to CSV at {}", path);
+            println!("\n ✔   Exported to CSV at {}\n".white().bold(), path);
         }
-        _ => println!("Unsupported format: use 'json' or 'csv'"),
+        _ => println!("[!] Unsupported format: use 'json' or 'csv'"),
     }
 }
 

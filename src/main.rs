@@ -35,7 +35,7 @@ Examples:
     filefix-hunter --format=csv --output=report.csv
 
 By default, no export is performed.
-".white());
+".white().bold());
 }
 
 fn get_username_from_sid(sid: &str) -> Option<String> {
@@ -96,9 +96,9 @@ fn print_typed_paths_for_user(
                 });
 
                 if result.is_some() {
-                    println!("  [{}] {}", name.green(), clean.red().bold());
+                    println!("  [{}] {}", name.red(), clean.red().bold());
                 } else {
-                    println!("  [{}] {}", name.green(), clean.white());
+                    println!("  [{}] {}", name.green(), clean.green());
                 }
             }
         }
